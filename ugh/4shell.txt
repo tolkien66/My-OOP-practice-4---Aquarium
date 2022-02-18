@@ -1,0 +1,35 @@
+create table accessories
+(
+	name varchar
+		constraint accessories_pk
+			primary key,
+	type varchar not null,
+	cost int not null
+);
+
+insert into accessories values
+                               ('ACVATOR WD 1345', 'filter', 15),
+                               ('ACVATOR GD 5454', 'filter', 16),
+                               ('ACVATOR GD 5555', 'filter',17),
+                               ('ACVATOR WD 4554', 'filter',18),
+                               ('Ecofilter LK 2332', 'filter', 19),
+                               ('Ecofilter LK 5445', 'filter',20),
+                               ('Ecofilter MK 2332', 'filter',21),
+                               ('Ecofilter MK 5445', 'filter',22),
+                               ('fish food WINTY 1 kg', 'feed',5),
+                               ('fish food WINTY 800 kg', 'feed',4),
+                               ('fish food SPOOKY 500g', 'feed',3),
+                               ('fish food SPOOKY 100g', 'feed',2),
+                               ('snake food shhhaker', 'feed',6),
+                               ('turtle food', 'feed',7),
+                               ('food for lizards', 'feed',8),
+                               ('Mirror', 'toys', 9),
+                               ('Marimo Moss Ball', 'toys',10),
+                               ('Hoops', 'toys',11),
+                               ('Ceramic Log', 'toys',12),
+                               ('sea sand 3 kg','sand',3),
+                               ('sea sand 2 kg','sand',2),
+                               ('sea sand 1 kg','sand',1),
+                               ('river sand 3 kg','sand',3),
+                               ('river sand 2 kg','sand',2),
+                               ('river sand 1 kg','sand',1);
